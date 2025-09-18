@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Your Project Title</title>
 
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
 
+  <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -51,7 +54,9 @@
     <div class="container is-max-desktop has-text-centered">
       <h2 class="title is-4">Abstract</h2>
       <div class="content has-text-justified">
-        <p>Your abstract goes here.</p>
+        <p>
+          Your abstract goes here. Describe your work in a short paragraph.
+        </p>
       </div>
     </div>
   </div>
@@ -63,7 +68,37 @@
     <div class="content has-text-centered">
       <img src="./static/images/teaser.png" width="100%">
     </div>
-    <p class="content has-text-justified">Describe your project.</p>
+    <p class="content has-text-justified">
+      Write a detailed explanation of your method here.
+    </p>
+    <div class="content has-text-centered">
+      <img src="./static/images/architecture.png" width="100%">
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">Efficiency</h2>
+      <div class="content has-text-centered">
+        <img src="./static/images/efficiency.png" width="100%">
+      </div>
+      <p class="content has-text-justified">
+        Explain why your method is efficient and how it compares to others.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results</h2>
+    <div class="content has-text-centered">
+      <img src="./static/images/results1.png" width="100%">
+      <img src="./static/images/results2.png" width="100%">
+      <img src="./static/images/results3.png" width="100%">
+    </div>
   </div>
 </section>
 
@@ -71,7 +106,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@inproceedings{your2025project,
-  author    = {Author, A and Author, B},
+  author    = {Author, A and Author, B and Author, C},
   title     = {Your Project Title},
   booktitle = {Conference Name},
   year      = {2025},
@@ -80,11 +115,18 @@
 </section>
 
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      This website is licensed under 
-      <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>.
-    </p>
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content has-text-centered">
+        <p>
+          This website is licensed under a 
+          <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>.
+        </p>
+        <p>
+          Template adapted from <a href="https://github.com/nerfies/nerfies.github.io">nerfies.github.io</a>.
+        </p>
+      </div>
+    </div>
   </div>
 </footer>
 
